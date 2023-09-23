@@ -5,11 +5,11 @@
     <title>wtree</title>
     <style>
         html, body {
+            margin: 0;
+            padding: 0;
             background-color: #000;
             color: white;
             font-family: "Noto Mono", monospace;
-            margin: 0;
-            padding: 0;
         }
 
         #tree {
@@ -23,12 +23,14 @@
         #tree a:active { color: orange; }
 
         footer {
+            position: fixed;
+            width: 100%;
+            top: 100vh;
+            transform: translateY(-100%);
+            padding: 16px 0;
             background-color: #181818;
             text-align: right;
-            padding: 16px 0;
-            width: 100%;
         }
-
         footer span { padding: 0 16px; }
 
         footer a {
@@ -38,13 +40,13 @@
     </style>
 </head>
 <body>
+<div id="tree"></div>
 <script src="wtree.js"></script>
 <noscript>
     Please enable JavaScript on this webpage.
     wtree does not track you (I hope), and I'm not a good enough programmer to use PHP. <br />
-    - AFineDayforTea
+    - AFineDayForTea
 </noscript>
-<div id="tree"></div>
 <footer><span>Made using <a href="https://github.com/AFineDayForTea/wtree">wtree</a></span></footer>
 </body>
 </html>
