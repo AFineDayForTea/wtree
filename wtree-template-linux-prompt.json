@@ -1,0 +1,30 @@
+{
+  "prompt": "<span style=\"color: limegreen\">name@example.com</span>:<span style=\"color: blue\">~</span>$ wtree",
+  "config": {
+    "prefix": "║  ",
+    "prefixSpace": "   ",
+    "connector": "╟─ ",
+    "end_connector": "╙─ ",
+    "end": "╨"
+  },
+  "tree": [
+    {
+      "item": "websites",
+      "content": [
+        {
+          "item": "example.com",
+          "content": "<a href=\"https://example.com\">https://example.com</a>"
+        }
+      ]
+    },
+    {
+      "item": "social media",
+      "content": [
+        {
+          "item": "mastodon",
+          "content": "$USERNAME"
+        }
+      ]
+    }
+  ]
+}
