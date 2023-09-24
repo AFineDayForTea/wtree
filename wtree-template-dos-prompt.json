@@ -12,8 +12,12 @@
       "item": "websites",
       "content": [
         {
-          "item": "example.com",
-          "content": "<a href=\"https://example.com\">https://example.com</a>"
+          "item": "<a href=\"https://example.com\">example.com</a>",
+          "content": []
+        },
+        {
+          "item": "<a href=\"https://example.org\">example.org</a>",
+          "content": []
         }
       ]
     },
