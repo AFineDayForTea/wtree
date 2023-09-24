@@ -4,7 +4,7 @@
     "prefix": "║  ",
     "prefixSpace": "   ",
     "connector": "╟─ ",
-    "end_connector": "╙─ ",
+    "endConnector": "╙─ ",
     "end": "╨"
   },
   "tree": [
